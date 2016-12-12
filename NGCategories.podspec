@@ -26,12 +26,12 @@ Pod::Spec.new do |s|
 
   s.subspec "Foundation" do |ss|
     ss.source_files = "NGCategories/Foundation/**/*"
-    ss.public_header_files = "NGCategories/Foundation/NGFoundation.h"
+    ss.public_header_files = "NGCategories/Foundation/**/*.h"
   end
 
   s.subspec "UIkit" do |ss|
     ss.source_files = "NGCategories/UIkit/**/*"
-    ss.public_header_files = "NGCategories/UIKit/NGUIKit.h"
+    ss.public_header_files = "NGCategories/UIKit/**/*.h"
   end
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
