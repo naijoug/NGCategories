@@ -17,7 +17,7 @@
 {
     //去除空格换行符，并转化为大写字母
     NSString *colorStr = [[hex stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
-    if (colorStr.length<6) {
+    if ( colorStr.length<6 ) {
         return nil;
     }
     
@@ -43,5 +43,14 @@
     return [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:alpha];
 }
 
++ (instancetype)ng_randomColor {
+    
+    CGFloat red     = arc4random() / 255.0f;
+    CGFloat green   = arc4random() / 255.0f;
+    CGFloat blue    = arc4random() / 255.0f;
+    
+    return [UIColor colorWithRed:red green:green blue:blue alpha:1.0];
+    
+}
 
 @end

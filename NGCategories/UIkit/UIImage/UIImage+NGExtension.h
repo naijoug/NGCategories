@@ -31,13 +31,19 @@
 
 
 #pragma mark - 颜色图片
+/**
+ *  1*1 的纯色图片
+ */
 + (UIImage *)ng_imageWithColor:(UIColor *)color;
 /**
- *  返回纯色图片
+ *  指定尺寸纯色图片
  */
 + (UIImage *)ng_imageWithColor:(UIColor *)color size:(CGSize)size;
 
 #pragma mark - 文字图片
+/**
+ *  文字图片
+ */
 + (UIImage *)ng_imageWithTitle:(NSString *)title font:(CGFloat)font color:(UIColor *)color;
 
 

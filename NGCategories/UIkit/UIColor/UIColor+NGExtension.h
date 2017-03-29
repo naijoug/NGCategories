@@ -10,7 +10,9 @@
 
 @interface UIColor (NGExtension)
 
-
+/**
+ *  通过16进制字符串("#...... | 0x......")创建颜色
+ */
 + (instancetype)ng_colorWithHexString:(NSString *)hex;
 /**
  *  通过16进制字符串("#...... | 0x......")创建颜色
@@ -20,5 +22,10 @@
  */
 + (instancetype)ng_colorWithHexString:(NSString *)hex alpha:(CGFloat)alpha;
 
+
+/**
+ *  随机颜色
+ */
++ (instancetype)ng_randomColor;
 
 @end

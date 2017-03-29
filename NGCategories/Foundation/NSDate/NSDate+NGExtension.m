@@ -10,6 +10,14 @@
 
 @implementation NSDate (NGExtension)
 
+- (NSString *)ng_dateFormat:(NSString *)dateFormat {
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    formatter.dateFormat = dateFormat;
+    
+    return [formatter stringFromDate:self];
+}
+
+
 - (NSUInteger)ng_year       { return self.ng_dateComponents.year; }
 - (NSUInteger)ng_month      { return self.ng_dateComponents.month; }
 - (NSUInteger)ng_day        { return self.ng_dateComponents.day; }

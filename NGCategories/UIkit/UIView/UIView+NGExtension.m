@@ -17,7 +17,7 @@
     
     NSMutableString *xml = [NSMutableString string];
     
-    // 2.标签开头
+    // 标签开头
     [xml appendFormat:@"<%@ frame=\"%@\"", self.class, NSStringFromCGRect(self.frame)];
     if (!CGPointEqualToPoint(self.bounds.origin, CGPointZero)) {
         [xml appendFormat:@" bounds=\"%@\"", NSStringFromCGRect(self.bounds)];
@@ -30,7 +30,7 @@
         }
     }
     
-    // 3.判断是否要结束
+    // 判断是否要结束
     if (self.subviews.count == 0) {
         [xml appendString:@" />"];
         return xml;
@@ -38,13 +38,13 @@
         [xml appendString:@">"];
     }
     
-    // 4.遍历所有的子控件
+    // 遍历所有的子控件
     for (UIView *child in self.subviews) {
         NSString *childXml = [child ng_xmlComponent];
         [xml appendString:childXml];
     }
     
-    // 5.标签结尾
+    // 标签结尾
     [xml appendFormat:@"</%@>", self.class];
     
     return xml;

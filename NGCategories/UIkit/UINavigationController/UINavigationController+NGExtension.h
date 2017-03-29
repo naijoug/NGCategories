@@ -15,6 +15,18 @@
  *
  *  @param controller 控制器的类名
  */
-- (void)ng_pushController:(Class)controller;
+- (void)ng_pushController:(Class)cls;
+
+
+/**
+ *  删除导航堆栈中cls类型的控制器
+ */
+- (void)ng_removeController:(Class)cls;
+
+/**
+ *  删除导航堆栈中clss数组中类型的控制器
+ */
+- (void)ng_removeControllers:(NSArray *)clss;
+
 
 @end

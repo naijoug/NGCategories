@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB0251551E7F7EB000A67D10 /* UIScreen+NGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0251541E7F7EB000A67D10 /* UIScreen+NGExtension.m */; };
+		FB0251591E7F817F00A67D10 /* NSBundle+NGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0251581E7F817F00A67D10 /* NSBundle+NGExtension.m */; };
+		FB02515C1E7F844100A67D10 /* NSString+NGPath.m in Sources */ = {isa = PBXBuildFile; fileRef = FB02515B1E7F844000A67D10 /* NSString+NGPath.m */; };
+		FB02515F1E7FDBC300A67D10 /* UINavigationController+NGFullScreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = FB02515E1E7FDBC300A67D10 /* UINavigationController+NGFullScreenPopGesture.m */; };
+		FB02516B1E812A0700A67D10 /* UIKitSampleController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB02516A1E812A0700A67D10 /* UIKitSampleController.m */; };
+		FB02516E1E812A0F00A67D10 /* FoundationSampleController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB02516D1E812A0F00A67D10 /* FoundationSampleController.m */; };
+		FB0251711E812A3600A67D10 /* NGBaseSampleController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0251701E812A3600A67D10 /* NGBaseSampleController.m */; };
+		FB0251741E83A8CF00A67D10 /* NSString+NGDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0251731E83A8CF00A67D10 /* NSString+NGDisplay.m */; };
 		FB5E26031D815DBA00E4FA37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5E26021D815DBA00E4FA37 /* main.m */; };
 		FB5E26061D815DBA00E4FA37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5E26051D815DBA00E4FA37 /* AppDelegate.m */; };
-		FB5E26091D815DBA00E4FA37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5E26081D815DBA00E4FA37 /* ViewController.m */; };
 		FB5E260C1D815DBA00E4FA37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5E260A1D815DBA00E4FA37 /* Main.storyboard */; };
 		FB5E260E1D815DBA00E4FA37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5E260D1D815DBA00E4FA37 /* Assets.xcassets */; };
 		FB5E26111D815DBA00E4FA37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5E260F1D815DBA00E4FA37 /* LaunchScreen.storyboard */; };
@@ -32,12 +39,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB0251531E7F7EB000A67D10 /* UIScreen+NGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+NGExtension.h"; sourceTree = "<group>"; };
+		FB0251541E7F7EB000A67D10 /* UIScreen+NGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+NGExtension.m"; sourceTree = "<group>"; };
+		FB0251571E7F817F00A67D10 /* NSBundle+NGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+NGExtension.h"; sourceTree = "<group>"; };
+		FB0251581E7F817F00A67D10 /* NSBundle+NGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+NGExtension.m"; sourceTree = "<group>"; };
+		FB02515A1E7F844000A67D10 /* NSString+NGPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NGPath.h"; sourceTree = "<group>"; };
+		FB02515B1E7F844000A67D10 /* NSString+NGPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NGPath.m"; sourceTree = "<group>"; };
+		FB02515D1E7FDBC300A67D10 /* UINavigationController+NGFullScreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+NGFullScreenPopGesture.h"; sourceTree = "<group>"; };
+		FB02515E1E7FDBC300A67D10 /* UINavigationController+NGFullScreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+NGFullScreenPopGesture.m"; sourceTree = "<group>"; };
+		FB0251691E812A0700A67D10 /* UIKitSampleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitSampleController.h; sourceTree = "<group>"; };
+		FB02516A1E812A0700A67D10 /* UIKitSampleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIKitSampleController.m; sourceTree = "<group>"; };
+		FB02516C1E812A0F00A67D10 /* FoundationSampleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundationSampleController.h; sourceTree = "<group>"; };
+		FB02516D1E812A0F00A67D10 /* FoundationSampleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundationSampleController.m; sourceTree = "<group>"; };
+		FB02516F1E812A3600A67D10 /* NGBaseSampleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGBaseSampleController.h; sourceTree = "<group>"; };
+		FB0251701E812A3600A67D10 /* NGBaseSampleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGBaseSampleController.m; sourceTree = "<group>"; };
+		FB0251721E83A8CF00A67D10 /* NSString+NGDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NGDisplay.h"; sourceTree = "<group>"; };
+		FB0251731E83A8CF00A67D10 /* NSString+NGDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NGDisplay.m"; sourceTree = "<group>"; };
 		FB5E25FE1D815DBA00E4FA37 /* NGCategoriesSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NGCategoriesSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB5E26021D815DBA00E4FA37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FB5E26041D815DBA00E4FA37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FB5E26051D815DBA00E4FA37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FB5E26071D815DBA00E4FA37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FB5E26081D815DBA00E4FA37 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FB5E260B1D815DBA00E4FA37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB5E260D1D815DBA00E4FA37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB5E26101D815DBA00E4FA37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -90,6 +111,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB0251521E7F7E9800A67D10 /* UIScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FB0251531E7F7EB000A67D10 /* UIScreen+NGExtension.h */,
+				FB0251541E7F7EB000A67D10 /* UIScreen+NGExtension.m */,
+			);
+			path = UIScreen;
+			sourceTree = "<group>";
+		};
+		FB0251561E7F816800A67D10 /* NSBundle */ = {
+			isa = PBXGroup;
+			children = (
+				FB0251571E7F817F00A67D10 /* NSBundle+NGExtension.h */,
+				FB0251581E7F817F00A67D10 /* NSBundle+NGExtension.m */,
+			);
+			path = NSBundle;
+			sourceTree = "<group>";
+		};
 		FB5E25F51D815DBA00E4FA37 = {
 			isa = PBXGroup;
 			children = (
@@ -110,12 +149,16 @@
 		FB5E26001D815DBA00E4FA37 /* NGCategoriesSample */ = {
 			isa = PBXGroup;
 			children = (
-				FB6541291DEBCE7400DBB4EA /* UIKit */,
 				FB6541281DEBCE6C00DBB4EA /* Foundation */,
+				FB6541291DEBCE7400DBB4EA /* UIKit */,
 				FB5E26041D815DBA00E4FA37 /* AppDelegate.h */,
 				FB5E26051D815DBA00E4FA37 /* AppDelegate.m */,
-				FB5E26071D815DBA00E4FA37 /* ViewController.h */,
-				FB5E26081D815DBA00E4FA37 /* ViewController.m */,
+				FB02516F1E812A3600A67D10 /* NGBaseSampleController.h */,
+				FB0251701E812A3600A67D10 /* NGBaseSampleController.m */,
+				FB02516C1E812A0F00A67D10 /* FoundationSampleController.h */,
+				FB02516D1E812A0F00A67D10 /* FoundationSampleController.m */,
+				FB0251691E812A0700A67D10 /* UIKitSampleController.h */,
+				FB02516A1E812A0700A67D10 /* UIKitSampleController.m */,
 				FB5E260A1D815DBA00E4FA37 /* Main.storyboard */,
 				FB5E260D1D815DBA00E4FA37 /* Assets.xcassets */,
 				FB5E260F1D815DBA00E4FA37 /* LaunchScreen.storyboard */,
@@ -149,6 +192,7 @@
 			children = (
 				FB5E26501D81673300E4FA37 /* NGFoundation.h */,
 				FB5E26511D81673300E4FA37 /* NSArray */,
+				FB0251561E7F816800A67D10 /* NSBundle */,
 				FB5E26521D81673300E4FA37 /* NSAttributedString */,
 				FB5E26531D81673300E4FA37 /* NSDate */,
 				FB5E26541D81673300E4FA37 /* NSObject */,
@@ -200,6 +244,10 @@
 				FBFA55311DE826850023DA7A /* NSString+NGExtension.m */,
 				FB8896B21DE949E600F93A0E /* NSString+NGRegex.h */,
 				FB8896B31DE949E600F93A0E /* NSString+NGRegex.m */,
+				FB02515A1E7F844000A67D10 /* NSString+NGPath.h */,
+				FB02515B1E7F844000A67D10 /* NSString+NGPath.m */,
+				FB0251721E83A8CF00A67D10 /* NSString+NGDisplay.h */,
+				FB0251731E83A8CF00A67D10 /* NSString+NGDisplay.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -214,6 +262,7 @@
 				FB5E265C1D81673300E4FA37 /* UILabel */,
 				FB5E265D1D81673300E4FA37 /* UINavigationController */,
 				FB5E265E1D81673300E4FA37 /* UITextView */,
+				FB0251521E7F7E9800A67D10 /* UIScreen */,
 				FB5E265F1D81673300E4FA37 /* UIView */,
 			);
 			path = UIkit;
@@ -260,6 +309,8 @@
 			children = (
 				FB8896941DE92FDF00F93A0E /* UINavigationController+NGExtension.h */,
 				FB8896951DE92FDF00F93A0E /* UINavigationController+NGExtension.m */,
+				FB02515D1E7FDBC300A67D10 /* UINavigationController+NGFullScreenPopGesture.h */,
+				FB02515E1E7FDBC300A67D10 /* UINavigationController+NGFullScreenPopGesture.m */,
 			);
 			path = UINavigationController;
 			sourceTree = "<group>";
@@ -376,23 +427,30 @@
 			files = (
 				FB8896AE1DE943D800F93A0E /* NSAttributedString+NGExtension.m in Sources */,
 				FBFA55321DE826850023DA7A /* NSString+NGExtension.m in Sources */,
-				FB5E26091D815DBA00E4FA37 /* ViewController.m in Sources */,
+				FB02515F1E7FDBC300A67D10 /* UINavigationController+NGFullScreenPopGesture.m in Sources */,
 				FB88969F1DE9431600F93A0E /* UIColor+NGExtension.m in Sources */,
 				FB8896A81DE943BB00F93A0E /* NSObject+NGExtension.m in Sources */,
+				FB02515C1E7F844100A67D10 /* NSString+NGPath.m in Sources */,
+				FB0251711E812A3600A67D10 /* NGBaseSampleController.m in Sources */,
 				FB65412C1DEBCF3F00DBB4EA /* UIImageSampleController.m in Sources */,
 				FB8896961DE92FDF00F93A0E /* UINavigationController+NGExtension.m in Sources */,
 				FB5E26061D815DBA00E4FA37 /* AppDelegate.m in Sources */,
 				FBFA552C1DE826490023DA7A /* UIView+NGExtension.m in Sources */,
 				FB5E26031D815DBA00E4FA37 /* main.m in Sources */,
 				FB8896B41DE949E600F93A0E /* NSString+NGRegex.m in Sources */,
+				FB0251591E7F817F00A67D10 /* NSBundle+NGExtension.m in Sources */,
 				FB8896931DE92F7D00F93A0E /* UITextView+NGExtension.m in Sources */,
 				FB735FFB1DFE46C400034EED /* NSAttributedStringSampleController.m in Sources */,
 				FB5E26621D8167C600E4FA37 /* UIView+NGFrame.m in Sources */,
+				FB0251741E83A8CF00A67D10 /* NSString+NGDisplay.m in Sources */,
+				FB02516B1E812A0700A67D10 /* UIKitSampleController.m in Sources */,
 				FB8896B11DE943E500F93A0E /* NSArray+NGExtension.m in Sources */,
 				FB8896A21DE9438000F93A0E /* UIBarButtonItem+NGExtension.m in Sources */,
+				FB0251551E7F7EB000A67D10 /* UIScreen+NGExtension.m in Sources */,
 				FB88969C1DE9302100F93A0E /* UIImage+NGExtension.m in Sources */,
 				FB8896AB1DE943C900F93A0E /* NSDate+NGExtension.m in Sources */,
 				FB8896991DE9300300F93A0E /* UILabel+NGExtension.m in Sources */,
+				FB02516E1E812A0F00A67D10 /* FoundationSampleController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

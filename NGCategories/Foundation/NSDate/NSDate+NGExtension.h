@@ -10,6 +10,8 @@
 
 @interface NSDate (NGExtension)
 
+- (NSString *)ng_dateFormat:(NSString *)dateFormat;
+
 - (NSUInteger)ng_year;      // 年
 - (NSUInteger)ng_month;     // 月
 - (NSUInteger)ng_day;       // 日
