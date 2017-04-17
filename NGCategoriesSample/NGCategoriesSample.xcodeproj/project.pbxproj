@@ -15,6 +15,11 @@
 		FB02516E1E812A0F00A67D10 /* FoundationSampleController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB02516D1E812A0F00A67D10 /* FoundationSampleController.m */; };
 		FB0251711E812A3600A67D10 /* NGBaseSampleController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0251701E812A3600A67D10 /* NGBaseSampleController.m */; };
 		FB0251741E83A8CF00A67D10 /* NSString+NGDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0251731E83A8CF00A67D10 /* NSString+NGDisplay.m */; };
+		FB1A7F0F1EA4A8E200B049E0 /* UIImage+NGQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1A7F0E1EA4A8E200B049E0 /* UIImage+NGQRCode.m */; };
+		FB1A7F131EA4B60200B049E0 /* UIImageSampleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB1A7F121EA4B60200B049E0 /* UIImageSampleController.xib */; };
+		FB1A7F171EA4B75700B049E0 /* UILabelSampleController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1A7F151EA4B75700B049E0 /* UILabelSampleController.m */; };
+		FB1A7F181EA4B75700B049E0 /* UILabelSampleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB1A7F161EA4B75700B049E0 /* UILabelSampleController.xib */; };
+		FB1A7F1A1EA4C60A00B049E0 /* NSAttributedStringSampleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB1A7F191EA4C60A00B049E0 /* NSAttributedStringSampleController.xib */; };
 		FB5E26031D815DBA00E4FA37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5E26021D815DBA00E4FA37 /* main.m */; };
 		FB5E26061D815DBA00E4FA37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5E26051D815DBA00E4FA37 /* AppDelegate.m */; };
 		FB5E260C1D815DBA00E4FA37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5E260A1D815DBA00E4FA37 /* Main.storyboard */; };
@@ -55,6 +60,13 @@
 		FB0251701E812A3600A67D10 /* NGBaseSampleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGBaseSampleController.m; sourceTree = "<group>"; };
 		FB0251721E83A8CF00A67D10 /* NSString+NGDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NGDisplay.h"; sourceTree = "<group>"; };
 		FB0251731E83A8CF00A67D10 /* NSString+NGDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NGDisplay.m"; sourceTree = "<group>"; };
+		FB1A7F0D1EA4A8E200B049E0 /* UIImage+NGQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NGQRCode.h"; sourceTree = "<group>"; };
+		FB1A7F0E1EA4A8E200B049E0 /* UIImage+NGQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NGQRCode.m"; sourceTree = "<group>"; };
+		FB1A7F121EA4B60200B049E0 /* UIImageSampleController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UIImageSampleController.xib; sourceTree = "<group>"; };
+		FB1A7F141EA4B75700B049E0 /* UILabelSampleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILabelSampleController.h; sourceTree = "<group>"; };
+		FB1A7F151EA4B75700B049E0 /* UILabelSampleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILabelSampleController.m; sourceTree = "<group>"; };
+		FB1A7F161EA4B75700B049E0 /* UILabelSampleController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UILabelSampleController.xib; sourceTree = "<group>"; };
+		FB1A7F191EA4C60A00B049E0 /* NSAttributedStringSampleController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSAttributedStringSampleController.xib; sourceTree = "<group>"; };
 		FB5E25FE1D815DBA00E4FA37 /* NGCategoriesSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NGCategoriesSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB5E26021D815DBA00E4FA37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FB5E26041D815DBA00E4FA37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -291,6 +303,8 @@
 			children = (
 				FB88969A1DE9302100F93A0E /* UIImage+NGExtension.h */,
 				FB88969B1DE9302100F93A0E /* UIImage+NGExtension.m */,
+				FB1A7F0D1EA4A8E200B049E0 /* UIImage+NGQRCode.h */,
+				FB1A7F0E1EA4A8E200B049E0 /* UIImage+NGQRCode.m */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -340,6 +354,7 @@
 			children = (
 				FB735FF91DFE46C400034EED /* NSAttributedStringSampleController.h */,
 				FB735FFA1DFE46C400034EED /* NSAttributedStringSampleController.m */,
+				FB1A7F191EA4C60A00B049E0 /* NSAttributedStringSampleController.xib */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -349,6 +364,10 @@
 			children = (
 				FB65412A1DEBCF3F00DBB4EA /* UIImageSampleController.h */,
 				FB65412B1DEBCF3F00DBB4EA /* UIImageSampleController.m */,
+				FB1A7F121EA4B60200B049E0 /* UIImageSampleController.xib */,
+				FB1A7F141EA4B75700B049E0 /* UILabelSampleController.h */,
+				FB1A7F151EA4B75700B049E0 /* UILabelSampleController.m */,
+				FB1A7F161EA4B75700B049E0 /* UILabelSampleController.xib */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -413,8 +432,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB5E26111D815DBA00E4FA37 /* LaunchScreen.storyboard in Resources */,
+				FB1A7F1A1EA4C60A00B049E0 /* NSAttributedStringSampleController.xib in Resources */,
 				FB5E260E1D815DBA00E4FA37 /* Assets.xcassets in Resources */,
+				FB1A7F181EA4B75700B049E0 /* UILabelSampleController.xib in Resources */,
 				FB5E260C1D815DBA00E4FA37 /* Main.storyboard in Resources */,
+				FB1A7F131EA4B60200B049E0 /* UIImageSampleController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +451,7 @@
 				FBFA55321DE826850023DA7A /* NSString+NGExtension.m in Sources */,
 				FB02515F1E7FDBC300A67D10 /* UINavigationController+NGFullScreenPopGesture.m in Sources */,
 				FB88969F1DE9431600F93A0E /* UIColor+NGExtension.m in Sources */,
+				FB1A7F171EA4B75700B049E0 /* UILabelSampleController.m in Sources */,
 				FB8896A81DE943BB00F93A0E /* NSObject+NGExtension.m in Sources */,
 				FB02515C1E7F844100A67D10 /* NSString+NGPath.m in Sources */,
 				FB0251711E812A3600A67D10 /* NGBaseSampleController.m in Sources */,
@@ -438,6 +461,7 @@
 				FBFA552C1DE826490023DA7A /* UIView+NGExtension.m in Sources */,
 				FB5E26031D815DBA00E4FA37 /* main.m in Sources */,
 				FB8896B41DE949E600F93A0E /* NSString+NGRegex.m in Sources */,
+				FB1A7F0F1EA4A8E200B049E0 /* UIImage+NGQRCode.m in Sources */,
 				FB0251591E7F817F00A67D10 /* NSBundle+NGExtension.m in Sources */,
 				FB8896931DE92F7D00F93A0E /* UITextView+NGExtension.m in Sources */,
 				FB735FFB1DFE46C400034EED /* NSAttributedStringSampleController.m in Sources */,

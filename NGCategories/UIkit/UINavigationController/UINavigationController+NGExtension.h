@@ -13,7 +13,7 @@
 /**
  *  push无参的控制器
  *
- *  @param controller 控制器的类名
+ *  @param cls 控制器的类名
  */
 - (void)ng_pushController:(Class)cls;
 

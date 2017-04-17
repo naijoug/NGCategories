@@ -23,7 +23,7 @@
  *  @param image        图片名称
  *  @param font         字体大小
  *  @param color        字体颜色
- *  @param lineSpaling  行高
+ *  @param lineSpacing  行高
  *  @param margin       图片偏移量
  */
 + (instancetype)ng_attributedString:(NSString *)string image:(NSString *)image font:(CGFloat)font color:(UIColor *)color lineSpacing:(CGFloat)lineSpacing margin:(CGFloat)margin;
@@ -40,7 +40,7 @@
  *  @param string       文本
  *  @param font         字体大小
  *  @param color        字体颜色
- *  @param lineSpaling  行高
+ *  @param lineSpacing  行高
  *  @param margin       图片偏移量
  */
 + (instancetype)ng_attributedImage:(NSString *)image string:(NSString *)string font:(CGFloat)font color:(UIColor *)color lineSpacing:(CGFloat)lineSpacing margin:(CGFloat)margin;
