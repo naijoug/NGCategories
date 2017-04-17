@@ -93,12 +93,14 @@
 + (NSString *)ng_stringWithError:(NSError *)error {
     if (error && error.userInfo) {
         NSMutableString *message = [NSMutableString string];
-        [message appendFormat:@"Error Code : %ld\n", error.code];
         if ([error.userInfo objectForKey:NSLocalizedDescriptionKey]) {
             [message appendFormat:@"%@\n", [error.userInfo objectForKey:NSLocalizedDescriptionKey]];
         }
         if ([error.userInfo objectForKey:NSLocalizedFailureReasonErrorKey]) {
             [message appendFormat:@"%@\n", [error.userInfo objectForKey:NSLocalizedFailureReasonErrorKey]];
+        }
+        if ([error.userInfo objectForKey:NSLocalizedRecoverySuggestionErrorKey]) {
+            [message appendFormat:@"%@\n", [error.userInfo objectForKey:NSLocalizedRecoverySuggestionErrorKey]];
         }
         
         return message;

@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name                = "NGCategories"
-  s.version             = "0.0.4"
+  s.version             = "0.0.5"
   s.summary             = "Some useful iOS categories."
   s.description         = <<-DESC
       Some useful iOS categories!
@@ -17,10 +17,12 @@ Pod::Spec.new do |s|
   s.requires_arc        = true
 
   s.public_header_files = "NGCategories/NGCategories.h"
+  s.source_files        = "NGCategories/NGCategories.h"
 
   s.subspec "Foundation" do |ss|
-    ss.public_header_files  = "NGCategories/Foundation/NGFoundation.h"
-    
+    ss.public_header_files     = "NGCategories/Foundation/NGFoundation.h"
+    ss.source_files            = "NGCategories/Foundation/NGFoundation.h"
+
     ss.subspec "NSArray" do |sss|
       sss.public_header_files  = "NGCategories/Foundation/NSArray/*.h"
       sss.source_files         = "NGCategories/Foundation/NSArray/*.{h,m}"
@@ -48,7 +50,8 @@ Pod::Spec.new do |s|
   end
 
   s.subspec "UIkit" do |ss|
-    ss.public_header_files  = "NGCategories/UIKit/NGUIKit.h"
+    ss.public_header_files     = "NGCategories/UIKit/NGUIKit.h"
+    ss.source_files            = "NGCategories/UIKit/NGUIKit.h"
     
     ss.subspec "UIBarButtonItem" do |sss|
       sss.public_header_files  = "NGCategories/UIKit/UIBarButtonItem/*.h"
