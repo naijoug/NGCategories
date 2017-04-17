@@ -13,25 +13,57 @@
 #pragma mark - String
 
 /**
- *  string ? string : "";
+ *  string ?: "";
  */
 + (instancetype)ng_stringWithString:(NSString *)string;
 /**
- *  string ? string : placeholder;
+ *  string ?: placeholder;
  */
 + (instancetype)ng_stringWithString:(NSString *)string placeholder:(NSString *)placeholder;
 
 #pragma mark - Number
 + (instancetype)ng_stringWithNumber:(NSNumber *)number;
 + (instancetype)ng_stringWithNumber:(NSNumber *)number digit:(int)digit;
+/**
+ * NSNumber -> String
+ *
+ * @param number 浮点数
+ * @param digit  小数点位数
+ * @param round  是否需要四舍五入
+ */
 + (instancetype)ng_stringWithNumber:(NSNumber *)number digit:(int)digit round:(BOOL)round;
 
 + (instancetype)ng_precentStringWithNumber:(NSNumber *)number;
 + (instancetype)ng_precentStringWithNumber:(NSNumber *)number digit:(int)digit;
+/**
+ * NSNumber -> 百分比 String
+ *
+ * @param number 浮点数
+ * @param digit  小数点位数
+ * @param round  是否需要四舍五入
+ */
 + (instancetype)ng_precentStringWithNumber:(NSNumber *)number digit:(int)digit round:(BOOL)round;
+
++ (instancetype)ng_precentStringWithFloat:(float)number;
++ (instancetype)ng_precentStringWithFloat:(float)number digit:(int)digit;
+/**
+ * float -> 百分比 String
+ *
+ * @param number 浮点数
+ * @param digit  小数点位数
+ * @param round  是否需要四舍五入
+ */
++ (instancetype)ng_precentStringWithFloat:(float)number digit:(int)digit round:(BOOL)round;
 
 + (instancetype)ng_stringWithFloat:(float)number;
 + (instancetype)ng_stringWithFloat:(float)number digit:(int)digit;
+/**
+ * float -> String
+ *
+ * @param number 浮点数
+ * @param digit  小数点位数
+ * @param round  是否需要四舍五入
+ */
 + (instancetype)ng_stringWithFloat:(float)number digit:(int)digit round:(BOOL)round;
 
 
