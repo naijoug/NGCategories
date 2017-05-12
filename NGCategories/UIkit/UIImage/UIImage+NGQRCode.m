@@ -6,6 +6,11 @@
 //  Copyright © 2017年 http://naijoug.com. All rights reserved.
 //
 
+/**
+ * [iOS 原生扫 QR 码的那些事](http://c0ming.me/qr-code-scan/)
+ * [IOS原生方法实现二维码生成与扫描](http://www.jianshu.com/p/d6663245d3fa)
+ */
+
 #import "UIImage+NGQRCode.h"
 #import <CoreImage/CoreImage.h>
 

@@ -30,7 +30,7 @@
 }
 
 - (BOOL)ng_isInvalidPhoneNumber {
-    NSString * phoneNumberRegx = @"^\\d{11}$"; //11位数字正则
+    NSString * phoneNumberRegx = @"^1\\d{10}$"; // 共11位 && 第一位是1
     return [self isInValidWithRegex:phoneNumberRegx];
     
     {

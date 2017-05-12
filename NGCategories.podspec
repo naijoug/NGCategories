@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name                = "NGCategories"
-  s.version             = "0.0.7"
+  s.version             = "0.0.8"
   s.summary             = "Some useful iOS categories."
   s.description         = <<-DESC
       Some useful iOS categories!

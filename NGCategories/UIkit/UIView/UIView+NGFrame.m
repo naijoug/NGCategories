@@ -14,7 +14,7 @@
 - (CGFloat)ng_x         {   return self.frame.origin.x;     }
 - (CGFloat)ng_y         {   return self.frame.origin.y;     }
 - (CGFloat)ng_width     {   return self.frame.size.width;   }
-- (CGFloat)ng_height    {   return self.frame.size.width;   }
+- (CGFloat)ng_height    {   return self.frame.size.height;   }
 - (CGPoint)ng_origin    {   return self.frame.origin;       }
 - (CGSize)ng_size       {   return self.frame.size;         }
 
